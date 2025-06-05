@@ -12,6 +12,19 @@
             max-width: 600px;
             margin: auto;
         } */
+
+        /* div > p {
+          color: blue;
+        }
+        h2 + p {
+          color: green;
+        } */
+        /* p ~ p {
+          color: orange;
+        } */
+        .container > p {
+          color: red;
+        }
     </style>
   </head>
   <main id="body">
@@ -60,6 +73,33 @@
 
 
       </form>
+
+      <div class="container">
+        <h2>Subheading</h2>
+        <p>First paragraph.</p>
+        <p>Second paragraph.</p>
+        <p>Third paragraph.</p>
+        <section>
+          <p>Paragraph inside an h4</p>
+        </section>
+        <p>Another paragraph element</p>
+      </div>
+      <hr>
+      <div>
+        <p>Direct child</p>
+        <section>
+          <p>Nested inside section</p>
+        </section>
+      </div>
+      <hr>
+      <span class="container">
+        <h2>Subheading</h2>
+        <p>First paragraph.</p>
+        <div>Second paragraph.</div>
+        <p>Third paragraph.</p>
+        <p>Another paragraph element</p>
+      </span>
+
     </body>
     
   </main>
